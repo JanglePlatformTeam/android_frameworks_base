@@ -18,7 +18,7 @@
 -->
 <resources>
     <bool name="def_dim_screen">true</bool>
-    <integer name="def_screen_off_timeout">60000</integer>
+    <integer name="def_screen_off_timeout">600000</integer>
     <integer name="def_sleep_timeout">-1</integer>
     <bool name="def_airplane_mode_on">false</bool>
     <bool name="def_theater_mode_on">false</bool>
@@ -38,7 +38,7 @@
 
     <bool name="def_bluetooth_on">true</bool>
     <bool name="def_wifi_display_on">false</bool>
-    <bool name="def_install_non_market_apps">false</bool>
+    <bool name="def_install_non_market_apps">true</bool>
     <!-- 0 == off, 3 == on -->
     <integer name="def_location_mode">3</integer>
     <bool name="assisted_gps_enabled">true</bool>
@@ -160,7 +160,7 @@
     <integer name="def_wifi_scan_always_available">0</integer>
 
     <!-- Default for Settings.Secure.LOCK_SCREEN_SHOW_NOTIFICATIONS, 1==on -->
-    <integer name="def_lock_screen_show_notifications">1</integer>
+    <integer name="def_lock_screen_show_notifications">0</integer>
 
     <!-- Default for Settings.Secure.LOCK_SCREEN_ALLOW_PRIVATE_NOTIFICATIONS -->
     <bool name="def_lock_screen_allow_private_notifications">true</bool>
@@ -252,7 +252,7 @@
     <integer name="def_accessibility_magnification_capabilities">3</integer>
 
     <!-- Default for Settings.Global.DEVELOPMENT_ENABLE_NON_RESIZABLE_MULTI_WINDOW -->
-    <bool name="def_enable_non_resizable_multi_window">false</bool>
+    <bool name="def_enable_non_resizable_multi_window">true</bool>
 
     <!-- Default for Settings.Secure.ACCESSIBILITY_BUTTON_MODE -->
     <integer name="def_accessibility_button_mode">1</integer>
